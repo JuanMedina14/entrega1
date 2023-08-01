@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+};
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.contenedor__imagen{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+
+
+    @media (max-width: 400px) {
+        .contenedor{
+            width:50%;
+        }
+      }
